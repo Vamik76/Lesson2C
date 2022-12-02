@@ -4,12 +4,9 @@
 Console.WriteLine ("Введите первое чиcло");
 int a = Convert.ToInt32 (Console.ReadLine ());
 Console.WriteLine ("Введите второе чиcло");
-int n=0;
 int b = Convert.ToInt32 (Console.ReadLine ());
-if (a%b==0)
+int n = a%b;
+if (n==0)
     Console.WriteLine("Число кратное");
 else
-{
-    n = a%b;
     Console.WriteLine("Остаток от деления "+n);
-}
