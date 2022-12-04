@@ -2,7 +2,6 @@
 Console.WriteLine ("Введите чиcло");
 int a = Convert.ToInt32 (Console.ReadLine ());
 int b = a / 100 % 10;
-Console.WriteLine(b);
 if (b==0)
     Console.WriteLine ("Третьей цифры нет");
 else
